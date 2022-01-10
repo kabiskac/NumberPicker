@@ -1907,7 +1907,7 @@ public class NumberPicker extends LinearLayout {
             right = left + mDividerLength;
         } else {
             left = 0;
-            right = getRight();
+            right = getWidth();
         }
         switch (mDividerType) {
             case SIDE_LINES:
